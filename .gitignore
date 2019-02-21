@@ -120,3 +120,4 @@ dmypy.json
 .idea/vcs.xml/
 .idea/
 .idea
+.DS_Store
