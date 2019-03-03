@@ -21,3 +21,13 @@ def compare(fs, args):
                  label=f.__name__)
     plt.legend()
 plt.grid(True)
+
+
+#примеры использования
+A=[]
+for k in range(10):
+    A.append(list(range(k*100,k,-1)))
+#Сравнение сортировок   
+compare([insert_sort, sort_merge], A)
+#Сравнение вариантов вычисления чисел Фибоначчи 
+compare([fib, fib2], list(range(25)))
