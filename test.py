@@ -12,5 +12,5 @@ for ch in s:
     else:
         dic[ch]=1
         
-for k in dic:
-    print(k)
+for k, val in dic.item():
+    print(k, val)
