@@ -1,4 +1,4 @@
-**Источник** https://neerc.ifmo.ru/teaching/algo/year2022/index.html
+**Источник** [ИТМО](https://neerc.ifmo.ru/teaching/)
 
 ## Работа с отсортированными массивами
 
