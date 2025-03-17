@@ -1,0 +1,18 @@
+"""НОД"""
+def NOD(a, b):
+    if b == 0:
+        return a
+    else:
+        return NOD(b, a % b)
+a = int(input()) 
+b = int(input()) 
+print(NOD(a,b))
+
+"""x^n"""
+def pow(x,n): 
+    if n==0: 
+        return 1 
+    return x*pow(x,n-1) 
+x = int(input()) 
+n = int(input()) 
+print(pow(x,n))
