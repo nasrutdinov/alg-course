@@ -1,0 +1,19 @@
+"""без рекурсии"""
+def fib(n):
+    fib1=fib2=1
+    i = 2 
+    while i < n:
+        fib_next = fib2 + fib1
+        fib1 = fib2
+        fib2 = fib_next
+        i += 1
+    return fib_next;
+print (fib(30))
+
+
+"""с рекурсией"""
+def fib(n):
+    if n in(1,2):
+        return 1
+    return fib(n-1)+fib(n-2)
+print (fib(30))
