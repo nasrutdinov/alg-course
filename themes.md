@@ -2,9 +2,7 @@
 
 Множества и словари. Хеш-функции. 
 
-**27/11/2026**
-
-[Фильтр Блума](https://github.com/nasrutdinov/alg-course/blob/master/topics/bloom_filter.md). Поиск подстроки в строке: алгоритм Рабина--Карпа, алгоритм Кнута-Морриса-Пратта (КМП). 
+**27/11/2026**: [Фильтр Блума](https://github.com/nasrutdinov/alg-course/blob/master/topics/bloom_filter.md). Поиск подстроки в строке: алгоритм Рабина--Карпа, алгоритм Кнута-Морриса-Пратта (КМП). 
 
 
 
