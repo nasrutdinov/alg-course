@@ -4,7 +4,7 @@
 
 **27/11/2026**
 
-[Фильтр Блума]{https://github.com/nasrutdinov/alg-course/tree/master/topics}. Поиск подстроки в строке: алгоритм Рабина--Карпа, алгоритм Кнута-Морриса-Пратта (КМП). 
+[Фильтр Блума](https://github.com/nasrutdinov/alg-course/blob/master/topics/bloom_filter.md). Поиск подстроки в строке: алгоритм Рабина--Карпа, алгоритм Кнута-Морриса-Пратта (КМП). 
 
 
 
