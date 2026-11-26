@@ -64,6 +64,83 @@ S:  [ S[0] S[1] ... S[j-1] | S[j] ]   .......................   [ S[i-j] ... S[i
     [ S[0]...S[k-1]] ................................................... S[i-k]...S[i-1]]| * ]  
 ```
 
+```mermaid
+graph TB
+    subgraph "Строка 1"
+        direction LR
+        A1["1"]
+        A2["2"]
+        A3["3"]
+        A4["4"]
+        A5["5"]
+        A6["6"]
+        A7["7"]
+        A8["8"]
+        A9["9"]
+        A10["10"]
+        A11["11"]
+        A12["12"]
+        A13["13"]
+        A14["14"]
+        A15["15"]
+        
+        A1 --- A2 --- A3 --- A4 --- A5 --- A6 --- A7 --- A8 --- A9 --- A10 --- A11 --- A12 --- A13 --- A14 --- A15
+    end
+    
+    subgraph "Строка 2"
+        direction LR
+        B1["1"]
+        B2["2"]
+        B3["3"]
+        B4["4"]
+        B5["5"]
+        B6["6"]
+        B7["7"]
+        B8["8"]
+        B9["9"]
+        B10["10"]
+        B11["11"]
+        B12["12"]
+        B13["13"]
+        B14["14"]
+        B15["15"]
+        
+        B1 --- B2 --- B3 --- B4 --- B5 --- B6 --- B7 --- B8 --- B9 --- B10 --- B11 --- B12 --- B13 --- B14 --- B15
+    end
+    
+    style A1 fill:#4A90E2,stroke:#2E5C8A,stroke-width:3px,color:#fff
+    style A2 fill:#4A90E2,stroke:#2E5C8A,stroke-width:3px,color:#fff
+    style A3 fill:#4A90E2,stroke:#2E5C8A,stroke-width:3px,color:#fff
+    style A4 fill:#4A90E2,stroke:#2E5C8A,stroke-width:3px,color:#fff
+    style A5 fill:#4A90E2,stroke:#2E5C8A,stroke-width:3px,color:#fff
+    style A6 fill:#4A90E2,stroke:#2E5C8A,stroke-width:3px,color:#fff
+    style A7 fill:#FF4444,stroke:#CC3636,stroke-width:3px,color:#fff
+    style A8 fill:#4A90E2,stroke:#2E5C8A,stroke-width:3px,color:#fff
+    style A9 fill:#4A90E2,stroke:#2E5C8A,stroke-width:3px,color:#fff
+    style A10 fill:#4A90E2,stroke:#2E5C8A,stroke-width:3px,color:#fff
+    style A11 fill:#4A90E2,stroke:#2E5C8A,stroke-width:3px,color:#fff
+    style A12 fill:#4A90E2,stroke:#2E5C8A,stroke-width:3px,color:#fff
+    style A13 fill:#4A90E2,stroke:#2E5C8A,stroke-width:3px,color:#fff
+    style A14 fill:#4A90E2,stroke:#2E5C8A,stroke-width:3px,color:#fff
+    style A15 fill:#FFD700,stroke:#CCA800,stroke-width:3px,color:#000
+    
+    style B1 fill:#7ED321,stroke:#5A9A18,stroke-width:3px,color:#fff
+    style B2 fill:#7ED321,stroke:#5A9A18,stroke-width:3px,color:#fff
+    style B3 fill:#F5F5F5,stroke:#CCCCCC,stroke-width:2px,color:#999
+    style B4 fill:#F5F5F5,stroke:#CCCCCC,stroke-width:2px,color:#999
+    style B5 fill:#F5F5F5,stroke:#CCCCCC,stroke-width:2px,color:#999
+    style B6 fill:#F5F5F5,stroke:#CCCCCC,stroke-width:2px,color:#999
+    style B7 fill:#F5F5F5,stroke:#CCCCCC,stroke-width:2px,color:#999
+    style B8 fill:#F5F5F5,stroke:#CCCCCC,stroke-width:2px,color:#999
+    style B9 fill:#F5F5F5,stroke:#CCCCCC,stroke-width:2px,color:#999
+    style B10 fill:#F5F5F5,stroke:#CCCCCC,stroke-width:2px,color:#999
+    style B11 fill:#F5F5F5,stroke:#CCCCCC,stroke-width:2px,color:#999
+    style B12 fill:#F5F5F5,stroke:#CCCCCC,stroke-width:2px,color:#999
+    style B13 fill:#7ED321,stroke:#5A9A18,stroke-width:3px,color:#fff
+    style B14 fill:#7ED321,stroke:#5A9A18,stroke-width:3px,color:#fff
+    style B15 fill:#FFD700,stroke:#CCA800,stroke-width:3px,color:#000
+```
+
 **Алгоритм "откатов":**
 ```
 j = π[i-1]
