@@ -86,7 +86,25 @@ graph TB
         
         A1 --- A2 --- A3 --- A4 --- A5 --- A6 --- A7 --- A8 --- A9 --- A10 --- A11 --- A12 --- A13 --- A14 --- A15
     end
-    
+    style A1 fill:#4A90E2,stroke:#2E5C8A,stroke-width:3px,color:#fff
+    style A2 fill:#4A90E2,stroke:#2E5C8A,stroke-width:3px,color:#fff
+    style A3 fill:#4A90E2,stroke:#2E5C8A,stroke-width:3px,color:#fff
+    style A4 fill:#4A90E2,stroke:#2E5C8A,stroke-width:3px,color:#fff
+    style A5 fill:#4A90E2,stroke:#2E5C8A,stroke-width:3px,color:#fff
+    style A6 fill:#4A90E2,stroke:#2E5C8A,stroke-width:3px,color:#fff
+    style A7 fill:#FF4444,stroke:#CC3636,stroke-width:3px,color:#fff
+    style A8 fill:#4A90E2,stroke:#2E5C8A,stroke-width:3px,color:#fff
+    style A9 fill:#4A90E2,stroke:#2E5C8A,stroke-width:3px,color:#fff
+    style A10 fill:#4A90E2,stroke:#2E5C8A,stroke-width:3px,color:#fff
+    style A11 fill:#4A90E2,stroke:#2E5C8A,stroke-width:3px,color:#fff
+    style A12 fill:#4A90E2,stroke:#2E5C8A,stroke-width:3px,color:#fff
+    style A13 fill:#4A90E2,stroke:#2E5C8A,stroke-width:3px,color:#fff
+    style A14 fill:#4A90E2,stroke:#2E5C8A,stroke-width:3px,color:#fff
+    style A15 fill:#FFD700,stroke:#CCA800,stroke-width:3px,color:#000
+```
+
+```mermaid
+graph TB    
     subgraph "Строка 2"
         direction LR
         B1["1"]
@@ -107,22 +125,6 @@ graph TB
         
         B1 --- B2 --- B3 --- B4 --- B5 --- B6 --- B7 --- B8 --- B9 --- B10 --- B11 --- B12 --- B13 --- B14 --- B15
     end
-    
-    style A1 fill:#4A90E2,stroke:#2E5C8A,stroke-width:3px,color:#fff
-    style A2 fill:#4A90E2,stroke:#2E5C8A,stroke-width:3px,color:#fff
-    style A3 fill:#4A90E2,stroke:#2E5C8A,stroke-width:3px,color:#fff
-    style A4 fill:#4A90E2,stroke:#2E5C8A,stroke-width:3px,color:#fff
-    style A5 fill:#4A90E2,stroke:#2E5C8A,stroke-width:3px,color:#fff
-    style A6 fill:#4A90E2,stroke:#2E5C8A,stroke-width:3px,color:#fff
-    style A7 fill:#FF4444,stroke:#CC3636,stroke-width:3px,color:#fff
-    style A8 fill:#4A90E2,stroke:#2E5C8A,stroke-width:3px,color:#fff
-    style A9 fill:#4A90E2,stroke:#2E5C8A,stroke-width:3px,color:#fff
-    style A10 fill:#4A90E2,stroke:#2E5C8A,stroke-width:3px,color:#fff
-    style A11 fill:#4A90E2,stroke:#2E5C8A,stroke-width:3px,color:#fff
-    style A12 fill:#4A90E2,stroke:#2E5C8A,stroke-width:3px,color:#fff
-    style A13 fill:#4A90E2,stroke:#2E5C8A,stroke-width:3px,color:#fff
-    style A14 fill:#4A90E2,stroke:#2E5C8A,stroke-width:3px,color:#fff
-    style A15 fill:#FFD700,stroke:#CCA800,stroke-width:3px,color:#000
     
     style B1 fill:#7ED321,stroke:#5A9A18,stroke-width:3px,color:#fff
     style B2 fill:#7ED321,stroke:#5A9A18,stroke-width:3px,color:#fff
